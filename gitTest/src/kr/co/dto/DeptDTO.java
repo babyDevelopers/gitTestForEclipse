@@ -5,6 +5,13 @@ public class DeptDTO {
 	private String dname;
 	private String loc;
 	
+	
+	public DeptDTO(int deptno, String dname, String loc) {
+		super();
+		this.deptno = deptno;
+		this.dname = dname;
+		this.loc = loc;
+	}
 	public int getDeptno() {
 		return deptno;
 	}
